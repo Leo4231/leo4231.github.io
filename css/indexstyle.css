@@ -1,0 +1,54 @@
+#name {
+  margin-left: 25px;
+  margin-top: 10px;
+  font-size: 5vw;
+}
+
+/* mobile view */
+
+#profileimg {
+  width: 85vw;
+  margin-left: 25px;
+}
+
+.intro {
+  margin-left: 25px;
+}
+
+h1 {
+  font-size: 10vw;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+}
+
+.info {
+  font-size: 3.5vw;
+}
+
+@media screen and (min-width:900px) {
+  #name {
+    font-size: 2vw;
+  }
+  #profileimg {
+    display: inline-block;
+    width: 30vw;
+    height: 80vh;
+    float:left;
+  }
+
+  .intro {
+    display: inline-block;
+    width: 45vw;
+    height: 80vh;
+    margin-left: 10vw;
+    padding-top: 15vh;
+    float: left;
+  }
+
+  h1 {
+    font-size: 5vw;
+  }
+
+  .info {
+    font-size: 1.5vw;
+  }
+}

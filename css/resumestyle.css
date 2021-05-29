@@ -1,0 +1,24 @@
+#toptext {
+  display: inline-block;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+#resumedoc {
+  display: inline-block;
+  margin: 10px 20px;
+  width: 90vw;
+  height: 127vw; /* aspect ratio 1.41 */
+}
+
+iframe {
+  border: none;
+}
+
+@media screen and (min-width: 600px) {
+  #toptext {
+    font-size: 1.5vw;
+  }
+}

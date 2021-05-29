@@ -1,0 +1,90 @@
+h1 {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 10px;
+}
+
+.motherboard {
+  width: 95vw;
+  /* to remove height later on */
+  /* border: 1px solid white; */
+  margin-top: 10px;
+}
+
+.childboard {
+  width: 90vw;
+  /* to remove height later on */
+  /* border: 1px solid white; */
+  border-bottom: 1px solid white;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.boardpic {
+  display: none;
+  width: 65px;
+  height: 65px;
+}
+
+.descriptionbox {
+  display: inline-block;
+  width: 90vw;
+  font-size: 10px;
+
+  /* border: 1px solid white; */
+}
+
+.titlehead {
+  font-size: 12px;
+}
+
+#endtext {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 10px;
+}
+
+@media screen and (min-width: 500px) {
+  .boardpic {
+    display: inline-block;
+    float: left;
+  }
+
+  .descriptionbox {
+  width: 70vw;
+  margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .motherboard {
+    width: 950px;
+  }
+
+  .childboard {
+    width: 950px;
+  }
+
+  .descriptionbox {
+    display: inline-block;
+    width: 850px;
+    font-size: 14px;
+  }
+
+  h1 {
+    font-size: 14px;
+  }
+
+  .titlehead {
+    font-size: 16px;
+  }
+
+  #endtext {
+    font-size: 12px;
+  }
+
+  .boardpic {
+    width: 80px;
+    height: 80px;
+  }
+}
