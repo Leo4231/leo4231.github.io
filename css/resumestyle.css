@@ -7,13 +7,6 @@
 }
 
 #resumedoc {
-  display: inline-block;
-  margin: 10px 20px;
-  width: 90vw;
-  height: 127vw; /* aspect ratio 1.41 */
-}
-
-iframe {
   border: none;
 }
 
